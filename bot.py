@@ -7,7 +7,7 @@ from telegram.ext import Application, MessageHandler, filters, ContextTypes, Com
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8604793274:AAH9NI9HwpLH-bYcLu5V5WFYsket2WufTt0")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8604793274:AAGs1HwzGhWFVU-crNk5RVlXtMkw5BU9dS0")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 
 anthropic_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
